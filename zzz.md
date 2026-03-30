@@ -76,8 +76,6 @@ Il se compose de deux scripts :
 ### Cote serveur Linux (SRVLX01)
 
 ```bash
-# Cloner le depot
-git clone https://github.com/WildCodeSchool/TSSR-Projet2-G1.git
 
 # Rendre le script executable
 chmod +x scripts/bash/main.sh
