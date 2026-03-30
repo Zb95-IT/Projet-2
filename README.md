@@ -1,11 +1,11 @@
-🖥️ Projet 2 - The Scripting Project
+Projet 2 - The Scripting Project
 
 > TSSR - Automatisation de tâches par script
-> Groupe : **G[X]** | Formation : **TSSR-[date]**
+> Groupe : **G-1** 
 
 ---
 
-## 📋 Présentation du projet
+## Présentation du projet
 
 Ce projet consiste à créer un **outil d'administration centralisée multi-plateforme**.
 Il permet d'administrer à distance des machines clientes Windows et Linux depuis deux serveurs :
@@ -14,14 +14,14 @@ Il permet d'administrer à distance des machines clientes Windows et Linux depui
 
 ---
 
-## 👥 Équipe
+## Équipe
 
 | Membre | Rôle |
 |--------|------|
-| [Prénom Nom] | Scrum Master (SM) |
-| [Prénom Nom] | Product Owner (PO) |
-| [Prénom Nom] | Développeur |
-| [Prénom Nom] | Développeur |
+| Zinedine Balamane | 
+| Brice Hemart | 
+| Patrick Tambwe | 
+| Mohamed Badane | 
 
 ---
 
