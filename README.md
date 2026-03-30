@@ -31,6 +31,14 @@ Il se compose de deux scripts :
 
 ---
 
+## Contexte du projet
+
+- **Formation :** TSSR - Technicien Systeme et Reseaux
+- **Hyperviseur :** Proxmox VE (serveur distant)
+- **Plage VM Groupe 1 :** ID 101 a 198
+
+---
+
 ## Infrastructure
 
 ### Machines virtuelles (Proxmox)
