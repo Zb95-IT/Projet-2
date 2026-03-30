@@ -1,35 +1,33 @@
 # Projet 2 - The Scripting Project
 
----
-
-
 ## Présentation du projet
 
-Ce projet consiste à créer un **outil d'administration centralisée multi-plateforme**.
+Ce projet consiste à créer un outil d'administration centralisée multi-plateforme.
 Il permet d'administrer à distance des machines clientes Windows et Linux depuis deux serveurs :
-- Un serveur **Debian** (script Bash)
-- Un serveur **Windows Server** (script PowerShell)
-- Un client **Ubuntu**
-- Un client **Windows**
+
+- Un serveur Debian (script Bash)
+- Un serveur Windows Server (script PowerShell)
+- Un client Ubuntu
+- Un client Windows
 
 ---
 
-## Équipe
+## Equipe
 
 | Membre |
 |--------|
-| Zinedine Balamane | 
-| Brice Hemart | 
-| Patrick Tambwe | 
-| Mohamed Badane | 
+| Zinedine Balamane |
+| Brice Hemart |
+| Patrick Tambwe |
+| Mohamed Badane |
 
 ---
 
-## 🏗️ Infrastructure
+## Infrastructure
 
 ### Machines virtuelles (Proxmox)
 
-| Machine | OS | IP (G[X]) | Rôle |
+| Machine | OS | IP (G[X]) | Role |
 |---|---|---|---|
 | SRVLX01 | Debian 13 CLI | 172.16.[X]0.10 | Serveur Bash |
 | SRVWIN01 | Windows Server 2022 GUI | 172.16.[X]0.5 | Serveur PowerShell |
@@ -42,25 +40,25 @@ Il permet d'administrer à distance des machines clientes Windows et Linux depui
 
 ---
 
-## ⚙️ Prérequis & Installation
+## Prerequis et Installation
 
-### Côté serveur Linux (SRVLX01)
+### Cote serveur Linux (SRVLX01)
 
 ```bash
-# Cloner le dépôt
+# Cloner le depot
 git clone https://github.com/[organisation]/TSSR-Projet2-G[X].git
 
-# Rendre le script exécutable
+# Rendre le script executable
 chmod +x scripts/bash/main.sh
 
 # Lancer le script
 ./scripts/bash/main.sh
 ```
 
-### Côté serveur Windows (SRVWIN01)
+### Cote serveur Windows (SRVWIN01)
 
 ```powershell
-# Autoriser l'exécution de scripts
+# Autoriser l'execution de scripts
 Set-ExecutionPolicy RemoteSigned
 
 # Lancer le script
@@ -69,41 +67,41 @@ Set-ExecutionPolicy RemoteSigned
 
 ---
 
-## 🚀 Fonctionnalités
+## Fonctionnalites
 
 ### Actions disponibles
 
-| Fonctionnalité | Bash | PowerShell |
+| Fonctionnalite | Bash | PowerShell |
 |---|---|---|
-| Verrouillage de la machine | ✅ | ✅ |
-| Création de compte utilisateur local | ✅ | ✅ |
-| Changement de mot de passe | ✅ | ✅ |
-| Suppression de compte utilisateur | ✅ | ✅ |
-| Ajout à un groupe d'administration | ✅ | ✅ |
-| Redémarrage de la machine | ✅ | ✅ |
-| Création / suppression de répertoire | ✅ | ✅ |
-| Prise en main à distance (CLI) | ✅ | ✅ |
-| Activation du pare-feu | ✅ | ✅ |
-| Exécution de script distant | ✅ | ✅ |
+| Verrouillage de la machine | Oui | Oui |
+| Creation de compte utilisateur local | Oui | Oui |
+| Changement de mot de passe | Oui | Oui |
+| Suppression de compte utilisateur | Oui | Oui |
+| Ajout a un groupe d'administration | Oui | Oui |
+| Redemarrage de la machine | Oui | Oui |
+| Creation et suppression de repertoire | Oui | Oui |
+| Prise en main a distance (CLI) | Oui | Oui |
+| Activation du pare-feu | Oui | Oui |
+| Execution de script distant | Oui | Oui |
 
-### Informations collectées
+### Informations collectees
 
 | Information | Bash | PowerShell |
 |---|---|---|
-| Liste des utilisateurs locaux | ✅ | ✅ |
-| 5 derniers logins | ✅ | ✅ |
-| Adresse IP / masque / passerelle | ✅ | ✅ |
-| Disques (nombre, partitions, FS, taille) | ✅ | ✅ |
-| Espace disque restant | ✅ | ✅ |
-| Version de l'OS | ✅ | ✅ |
-| Carte graphique | ✅ | ✅ |
-| CPU % | ✅ | ✅ |
-| Uptime | ✅ | ✅ |
-| 10 derniers événements critiques | ✅ | ✅ |
-| Température CPU | ✅ | ✅ |
-| Droits/permissions sur un dossier | ✅ | ✅ |
-| Recherche dans les logs (utilisateur/machine) | ✅ | ✅ |
+| Liste des utilisateurs locaux | Oui | Oui |
+| 5 derniers logins | Oui | Oui |
+| Adresse IP / masque / passerelle | Oui | Oui |
+| Disques (nombre, partitions, FS, taille) | Oui | Oui |
+| Espace disque restant | Oui | Oui |
+| Version de l'OS | Oui | Oui |
+| Carte graphique | Oui | Oui |
+| CPU % | Oui | Oui |
+| Uptime | Oui | Oui |
+| 10 derniers evenements critiques | Oui | Oui |
+| Temperature CPU | Oui | Oui |
+| Droits et permissions sur un dossier | Oui | Oui |
+| Recherche dans les logs (utilisateur/machine) | Oui | Oui |
 
 ---
 
-## 📁 Structure du dépôt
+## Structure du depot
