@@ -102,4 +102,3 @@ Set-ExecutionPolicy RemoteSigned
 
 ---
 
-## Structure du depot
