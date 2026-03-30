@@ -15,8 +15,8 @@ L'outil permet de :
 
 Il se compose de deux scripts :
 
-- Un script **Bash** exécutable depuis un serveur Debian
-- Un script **PowerShell** exécutable depuis un serveur Windows Server
+- Un script **Bash** exécutable depuis les deux serveurs
+- Un script **PowerShell** exécutable depuis les deux serveurs
 
 ---
 
