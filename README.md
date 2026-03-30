@@ -11,13 +11,15 @@ Ce projet consiste à créer un **outil d'administration centralisée multi-plat
 Il permet d'administrer à distance des machines clientes Windows et Linux depuis deux serveurs :
 - Un serveur **Debian** (script Bash)
 - Un serveur **Windows Server** (script PowerShell)
+- Un client **Ubuntu**
+- Un client **Windows**
 
 ---
 
 ## Équipe
 
-| Membre | Rôle |
-|--------|------|
+| Membre |
+|--------|
 | Zinedine Balamane | 
 | Brice Hemart | 
 | Patrick Tambwe | 
