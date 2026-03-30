@@ -1,7 +1,5 @@
 Projet 2 - The Scripting Project
 
-> TSSR - Automatisation de tâches par script
-> Groupe : **G-1** 
 
 ---
 
