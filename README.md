@@ -51,7 +51,7 @@ Il se compose de deux scripts :
 | CLIWIN01 | Windows 10/11 | 172.16.0.20 | Client Windows |
 
 - **Masque :** 255.255.255.0
-- **Passerelle :** 172.16.[X]0.254
+- **Passerelle :** 172.16.0.254
 - **DNS :** 8.8.8.8
 
 ---
