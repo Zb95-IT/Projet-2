@@ -45,14 +45,12 @@ Il permet d'administrer à distance des machines clientes Windows et Linux depui
 ### Cote serveur Linux (SRVLX01)
 
 ```bash
-# Cloner le depot
-git clone https://github.com/[organisation]/TSSR-Projet2-G[X].git
 
 # Rendre le script executable
-chmod +x scripts/bash/main.sh
+chmod +x scripts/bash/NOMDUSCRIPT.SH
 
 # Lancer le script
-./scripts/bash/main.sh
+./scripts/bash/NOMDUSCRIPT.SH
 ```
 
 ### Cote serveur Windows (SRVWIN01)
@@ -62,7 +60,7 @@ chmod +x scripts/bash/main.sh
 Set-ExecutionPolicy RemoteSigned
 
 # Lancer le script
-.\scripts\powershell\main.ps1
+.\scripts\powershell\NOMDUSCRIPT.PS1
 ```
 
 ---
