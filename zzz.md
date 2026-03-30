@@ -34,7 +34,6 @@ Il se compose de deux scripts :
 ## Contexte du projet
 
 - **Formation :** TSSR - Technicien Systeme et Reseaux
-- **Competence visee (REAC) :** CP6 - Automatiser des taches a l'aide de scripts
 - **Hyperviseur :** Proxmox VE (serveur distant)
 - **Plage VM Groupe 1 :** ID 101 a 198
 
