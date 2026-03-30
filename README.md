@@ -2,13 +2,21 @@
 
 ## Présentation du projet
 
-Ce projet consiste à créer un outil d'administration centralisée multi-plateforme.
-Il permet d'administrer à distance des machines clientes Windows et Linux depuis deux serveurs :
+Ce projet consiste à créer un outil d'administration centralisée multi-plateforme capable d'administrer
+à distance des machines clientes Windows et Linux depuis deux serveurs distincts.
 
-- Un serveur Debian (script Bash)
-- Un serveur Windows Server (script PowerShell)
-- Un client Ubuntu
-- Un client Windows
+L'outil permet de :
+
+- Gérer des utilisateurs à distance
+- Administrer des postes clients
+- Interroger le statut d'une machine
+- Créer et rechercher des informations dans des journaux d'événements
+- Automatiser des opérations ciblées
+
+Il se compose de deux scripts :
+
+- Un script **Bash** exécutable depuis un serveur Debian
+- Un script **PowerShell** exécutable depuis un serveur Windows Server
 
 ---
 
