@@ -43,12 +43,12 @@ Il se compose de deux scripts :
 
 ### Machines virtuelles (Proxmox)
 
-| Machine | OS | IP (G[X]) | Role |
+| Machine | OS | IP  | Role |
 |---|---|---|---|
-| SRVLX01 | Debian 13 CLI | 172.16.[X]0.10 | Serveur Bash |
-| SRVWIN01 | Windows Server 2022 GUI | 172.16.[X]0.5 | Serveur PowerShell |
-| CLILIN01 | Ubuntu 24 LTS | 172.16.[X]0.30 | Client Linux |
-| CLIWIN01 | Windows 10/11 | 172.16.[X]0.20 | Client Windows |
+| SRVLX01 | Debian 13 CLI | 172.16.0.10 | Serveur Bash |
+| SRVWIN01 | Windows Server 2022 GUI | 172.16.0.5 | Serveur PowerShell |
+| CLILIN01 | Ubuntu 24 LTS | 172.16.0.30 | Client Linux |
+| CLIWIN01 | Windows 10/11 | 172.16.0.20 | Client Windows |
 
 - **Masque :** 255.255.255.0
 - **Passerelle :** 172.16.[X]0.254
